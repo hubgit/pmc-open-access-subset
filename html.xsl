@@ -12,7 +12,7 @@
       <head>
         <meta charset="utf-8"/>
         <title><xsl:value-of select="article/front/article-meta/title-group/article-title[1]"/></title>
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../style.css"/>
       </head>
       <body>
         <xsl:apply-templates select="article/body"/>
